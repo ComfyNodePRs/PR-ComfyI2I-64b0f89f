@@ -1,0 +1,15 @@
+[project]
+name = "comfyi2i"
+description = "A set of custom nodes to perform image 2 image functions in ComfyUI."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["numpy", "torch", "torchvision", "tensorflow", "scikit-image", "scipy", "opencv-python"]
+
+[project.urls]
+Repository = "https://github.com/ManglerFTW/ComfyI2I"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyI2I"
+Icon = ""
